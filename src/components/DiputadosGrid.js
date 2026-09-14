@@ -38,8 +38,8 @@ export default function DiputadosGrid({ diputados }) {
                 <Image
                   src={diputado.fotoUrl}
                   alt={`Foto de ${diputado.nombreCompleto}`}
-                  layout="fill"
-                  objectFit="contain"
+                  fill
+                  style={{ objectFit: 'contain' }}
                   className="transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
